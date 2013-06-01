@@ -7,11 +7,8 @@
     hide_children = Refinery::Core.menu_hide_children if hide_children.nil?
 -%>
 
-<div class='navbar'>
-  <div class='navbar-inner'>
     
-<!-- <nav id='<%= dom_id %>' class='<%= css %>'> -->
-<nav id='<%= dom_id %>' class='navbar-inner'>
+<nav id='<%= dom_id %>' class='<%= css %> navbar-inner'>
   
   <ul class='nav'>
     <%= render :partial => '/refinery/menu_branch', :collection => roots,
@@ -23,8 +20,5 @@
                } -%>
   </ul>
 </nav>
-
-  </div>  
-</div>
 
 <% end -%>
