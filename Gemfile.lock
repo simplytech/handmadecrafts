@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/refinery/refinerycms-portfolio.git
+  revision: 5c528cfe2ebff8cae4b018c70b74dcc9e6674ac6
+  branch: 2-0-stable
+  specs:
+    refinerycms-portfolio (2.0.0)
+      awesome_nested_set (~> 2.1.0)
+      refinerycms-core (~> 2.0.0)
+
 PATH
   remote: vendor/extensions
   specs:
@@ -256,6 +265,7 @@ DEPENDENCIES
   refinerycms-i18n (~> 2.0.0)
   refinerycms-inquiries (~> 2.0.0)
   refinerycms-page-images (~> 2.0.0)
+  refinerycms-portfolio!
   sass-rails (~> 3.2.3)
   sqlite3
   taps
