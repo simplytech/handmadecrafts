@@ -1,11 +1,9 @@
 == Monique's Hand-Made Crafts
 
-This web app is generated with Refinery CMS
+This web app is built with Refinery CMS
 
-== My credentials:
+Hosted on Heroku, monitored with New Relic, built with Refinery CMS with a Twitter Bootstrap hack, and the pictures are stored on my Amazon S3 using fog.
 
-In development, I use:
+Since Heroku has a read-only filesystem, I use the 'fog' gem to upload the pictures to Amazon S3.
 
-username: alain
-email: aa@simplytech.com
-password: alain
+I use Heroku's method of setting config/environment variables so that none of my credentials are stored in this public source code.
