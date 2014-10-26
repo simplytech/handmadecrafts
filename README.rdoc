@@ -1,4 +1,4 @@
-== Monique's Hand-Made Crafts
+== Hand-Made Crafts (http://www.handmadecrafts.tk)
 
 This web app is built with Refinery CMS
 
